@@ -1,0 +1,236 @@
+<html><head><base href="https://websim.palmeiras.com.br/"><title>Sociedade Esportiva Palmeiras - Site Oficial</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #006437;
+  padding: 10px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #00a859;
+}
+
+.hero {
+  background: url('palmeiras-stadium.jpg') no-repeat center center;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero-content {
+  background-color: rgba(0, 100, 55, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #00a859;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #008f4c;
+}
+
+.news-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.news-item {
+  background-color: #ffffff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.news-item:hover {
+  transform: translateY(-5px);
+}
+
+.news-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.news-item-content {
+  padding: 20px;
+}
+
+.news-item h3 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #006437;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animated-button {
+  animation: pulse 2s infinite;
+}
+</style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <svg class="logo" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="250" cy="250" r="240" fill="#006437"/>
+        <path fill="#ffffff" d="M250 30c121.5 0 220 98.5 220 220s-98.5 220-220 220S30 371.5 30 250 128.5 30 250 30zm0 60c-88.4 0-160 71.6-160 160s71.6 160 160 160 160-71.6 160-160-71.6-160-160-160zm0 80c44.2 0 80 35.8 80 80s-35.8 80-80 80-80-35.8-80-80 35.8-80 80-80z"/>
+      </svg>
+      <nav>
+        <ul>
+          <li><a href="https://websim.palmeiras.com.br/noticias">Notícias</a></li>
+          <li><a href="https://websim.palmeiras.com.br/equipe">Equipe</a></li>
+          <li><a href="https://websim.palmeiras.com.br/jogos">Jogos</a></li>
+          <li><a href="https://websim.palmeiras.com.br/loja">Loja</a></li>
+          <li><a href="https://websim.palmeiras.com.br/socios">Sócio Torcedor</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Bem-vindo ao Verdão</h1>
+        <p>O maior campeão do Brasil</p>
+        <a href="https://websim.palmeiras.com.br/socios" class="cta-button animated-button">Seja Sócio Torcedor</a>
+      </div>
+    </section>
+
+    <section class="news-section">
+      <h2>Últimas Notícias</h2>
+      <div class="news-grid">
+        <div class="news-item">
+          <img alt="https://replicate.delivery/yhqm/t0oSjFRkSx4qMVDfDIrBwpbWPDxs83uRxOLnm959r5M3qZvJA/out-0.webp" src="celebration.jpg" width="300" height="200">
+          <div class="news-item-content">
+            <h3>Palmeiras vence clássico e segue líder</h3>
+            <p>Verdão mantém a liderança do campeonato com vitória convincente...</p>
+            <a href="https://websim.palmeiras.com.br/noticias/vitoria-classico" class="cta-button">Leia mais</a>
+          </div>
+        </div>
+        <div class="news-item">
+          <img alt="https://replicate.delivery/yhqm/FNC9TU1PkIZBIJZFmpJMZ5yeaUOv0bpE5OI8vRp6FE73qZvJA/out-0.webp" src="new-player.jpg" width="300" height="200">
+          <div class="news-item-content">
+            <h3>Palmeiras anuncia novo reforço</h3>
+            <p>Clube apresenta atacante internacional como nova contratação...</p>
+            <a href="https://websim.palmeiras.com.br/noticias/novo-reforco" class="cta-button">Leia mais</a>
+          </div>
+        </div>
+        <div class="news-item">
+          <img alt="https://replicate.delivery/yhqm/FC6Wcp0UhKJbFJv7ggE7JTcjRKTKXzkzGdlkfIVCfeidrm9mA/out-0.webp" src="fans.jpg" width="300" height="200">
+          <div class="news-item-content">
+            <h3>Ingressos para próximo jogo já à venda</h3>
+            <p>Torcedores podem garantir presença no importante duelo...</p>
+            <a href="https://websim.palmeiras.com.br/noticias/ingressos-proximo-jogo" class="cta-button">Leia mais</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Sociedade Esportiva Palmeiras. Todos os direitos reservados.</p>
+  </footer>
+
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+  const buttons = document.querySelectorAll('.cta-button');
+  
+  buttons.forEach(button => {
+    button.addEventListener('mouseover', () => {
+      button.style.backgroundColor = '#008f4c';
+    });
+    
+    button.addEventListener('mouseout', () => {
+      button.style.backgroundColor = '#00a859';
+    });
+    
+    button.addEventListener('click', (e) => {
+      e.preventDefault();
+      button.style.transform = 'scale(0.95)';
+      setTimeout(() => {
+        button.style.transform = 'scale(1)';
+      }, 100);
+    });
+  });
+});
+</script>
+</body></html>
